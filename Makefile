@@ -1,7 +1,7 @@
 CC=clang
-QCC=qcc.exe -V4.4.2,gcc_ntoarmv7le
+QCC=qcc.exe -V4.4.2,gcc_ntoarmv7le -std=89
 QLIB=-lz -lnbutil -lucl -llzo -DQNX -I includeQNX/
-LIB=-lz -llzo2 -lucl -llz4
+LIB=-I /opt/homebrew/include -L /opt/homebrew/lib  -lz -llzo2 -lucl -llz4
 
 default: dumpifs fixdecifs fixencifs uuu zzz exMifsLzo exMifsLz4
 

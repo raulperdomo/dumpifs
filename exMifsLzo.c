@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <lzo/lzo1z.h>
+#define error(p,q)	printf(q)
 
 
 typedef struct

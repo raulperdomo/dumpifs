@@ -1,11 +1,8 @@
 #include <stdio.h>
 #include <ucl/ucl.h>
 
-#ifndef QNX
-#include <error.h>
-#else
 #define error(p,q,r)	printf(r)
-#endif
+
 
 int main(int ac, char**av)
 {

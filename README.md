@@ -1,6 +1,14 @@
 # dumpifs
 Dirty hack dumpifs.
-Modified to be compiled on most platform without QNX SQP.
+Modified to be compiled on M1 Mac.
+
+Requirements:
+lzo2, lz4, and ucl
+`
+$ brew install lzo
+$ brew install lz4
+$ brew install ucl
+`
 
 For those who are interested in hacking MIB2 firmware.
 The compress tool support ucl and lzo compressed images only.

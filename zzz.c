@@ -1,9 +1,6 @@
 #include <stdio.h>
 #ifndef QNX
 #include <lzo/lzo1x.h>
-#include <error.h>
-#else
-#include <lzo1x.h>
 #define error(p,q,r)	printf(r)
 #endif
 
